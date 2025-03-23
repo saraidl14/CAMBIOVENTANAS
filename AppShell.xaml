@@ -4,12 +4,30 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:CAMBIOVENTANAS"
-    Shell.FlyoutBehavior="Disabled"
+    Shell.FlyoutBehavior="Flyout"
     Title="CAMBIOVENTANAS">
 
-    <ShellContent
+    <FlyoutItem Title="Home">
+
+        <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+    </FlyoutItem>
+    <FlyoutItem Title="Pagina1">
+
+        <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:NewPage1}"
+        Route="MainPage" />
+    </FlyoutItem>
+    <FlyoutItem Title="Pagina2">
+
+        <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:NewPage2}"
+        Route="MainPage" />
+    </FlyoutItem>
+
 
 </Shell>
