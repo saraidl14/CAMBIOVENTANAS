@@ -16,9 +16,9 @@ public partial class NewPage1 : ContentPage
                 Description = "Los dragones marrones son un armazón de carne y hueso. Son equilibrados en sus habilidades, " +
                 "combinando fuerza y resistencia con una buena capacidad para la maniobra. " +
                 "Su versatilidad los convierte en una opción sólida para cualquier jinete."+
+                "Poco se sabe realmente de esta raza de dragón, pero una cosa es clara no muestres debilidad ante ellos. " +
                 "Como es bien sabido por todos, es mejor no mostrar miedo ante ellos, o podrías acabar chamuscado y reducido a cenizas."+
-                " Esto por supuesto aplica a todos los dragones."
-
+                " Esto por supuesto aplica a todos los dragones." 
             }
 
         });

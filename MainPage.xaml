@@ -20,7 +20,7 @@
                 Margin="10" />
 
             <!-- Descripción general -->
-            <Label Text="Los dragones de Alas de Sangre, se podrían clasificar en siete tipos, dependiendo de su color:" TextColor="Black" FontSize="Medium"/>
+            <Label Text="Los dragones de Alas de Sangre, se podrían clasificar en siete tipos, ocho si contamos al desconocido, dependiendo de su color:" TextColor="Black" FontSize="Medium"/>
 
             <!-- Lista de tipos de dragones con colores representativos -->
             <Label Text="• Dragones Dorados" FontAttributes="Bold" TextColor="Goldenrod"/>

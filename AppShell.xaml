@@ -59,6 +59,12 @@
         ContentTemplate="{DataTemplate local:NewPage7}"
         Route="MainPage" />
     </FlyoutItem>
+    <FlyoutItem Title="Dorados">
+        <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:NewPage9}"
+        Route="MainPage" />
+    </FlyoutItem>
     <FlyoutItem Title="Desconocidos">
 
         <ShellContent
