@@ -1,5 +1,8 @@
 namespace CAMBIOVENTANAS;
 
+/// <summary>
+/// Clase que se encarga de mostrar la ventana de NewPage3, es decir, la del dragón rojo.
+/// </summary>
 public partial class NewPage3 : ContentPage
 {
 	public NewPage3()
@@ -8,15 +11,23 @@ public partial class NewPage3 : ContentPage
 	}
     private void DetallesBTN(object sender, EventArgs e)
     {
+        /// <summary>
+        /// Método que se encarga de cambiar de ventana al hacer click en el botón.
+        /// Es el que va a hacer que al clickar en detalles se nos muestren.
+        /// </summary>
+        /// <param name="sender">Objeto que activa el evento</param>
+        /// <param name="e">Argumentos del evento que ayuda a la funcion</param>
         Navigation.PushAsync(new Detalles
         {
+            //Navega a la página de detalles y asigna la información del dragón rojo.
 
             BindingContext = new Class1 { Texto = "Los Dragones Rojos" ,
                                           Image1= "rojo.png",
                                           Description= "Los dragones rojos son los guerreros definitivos, con una fuerza imparable y una naturaleza feroz. " +
                                           "Son dominantes en combate y son temidos por su poder destructivo, " +
-                                          "especialmente cuando se trata de misiones que requieren destruir al enemigo." +
-                                          "Los dragones rojos son conocidos por su alto temperamento, especialmente los colas de escorpión, si por mala fortuna llegas a ofender a uno, te puedes considerar muerto. Es por ello que se debe tener un respéto máximo hacia ellos y nunca mirarle a los ojos. Ice, Slice, Cath, Ghrian y Thoirt son dragones rojos.\r\n\r\n"
+                                          "especialmente cuando se trata de misiones que requieren destruir al enemigo.\r\n\r\n" +
+                                          "Los dragones rojos son conocidos por su alto temperamento, especialmente los colas de escorpión, si por mala fortuna llegas a ofender a uno, te puedes considerar muerto. \r\n\r\n" +
+                                          "Es por ello que se debe tener un respéto máximo hacia ellos y nunca mirarle a los ojos. Ice, Slice, Cath, Ghrian y Thoirt son dragones rojos.\r\n\r\n"
             }
             
         });

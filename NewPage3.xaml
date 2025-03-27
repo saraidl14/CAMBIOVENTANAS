@@ -12,7 +12,7 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
             <Image Source="rojo2.png" 
-            HeightRequest="185"/>
+            HeightRequest="400"/>
             <Button Text="Detalles"
         Clicked="DetallesBTN"
         x:Name="btnLBL" />

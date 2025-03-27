@@ -6,71 +6,77 @@
     xmlns:local="clr-namespace:CAMBIOVENTANAS"
     Shell.FlyoutBehavior="Flyout"
     Title="CAMBIOVENTANAS">
-
+    <!-- Elemento del menú para la página principal -->
+    <!-- 
+        FlyoutItem "Home": Agrupa las opciones principales de la aplicación.
+        Contiene dos subpáginas: "Tipos de Dragones" y "Tipos de Colas".
+        Que se han agregado a la aplicación para mostrar información sobre los dragones y sus tipos.
+    -->
     <FlyoutItem Title="Home">
-
         <ShellContent
         Title="Tipos de Dragones"
         ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Route="TiposDeDragones" />
         <ShellContent
         Title="Tipos de Colas"
         ContentTemplate="{DataTemplate local:NewPage5}"
-        Route="MainPage" />
-
+        Route="NewPage5" />
     </FlyoutItem>
+
+    <!-- Secciones individuales para diferentes tipos de dragones -->
+
     <FlyoutItem Title="Marrones">
 
         <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:NewPage1}"
-        Route="MainPage" />
+        Route="NewPage1" />
     </FlyoutItem>
     <FlyoutItem Title="Naranjas">
 
         <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:NewPage2}"
-        Route="MainPage" />
+        Route="NewPage2" />
     </FlyoutItem>
     <FlyoutItem Title="Rojos">
 
         <ShellContent
      Title="Home"
      ContentTemplate="{DataTemplate local:NewPage3}"
-     Route="MainPage" />
+     Route="NewPage3" />
     </FlyoutItem>
     <FlyoutItem Title="Verdes">
 
         <ShellContent
      Title="Home"
      ContentTemplate="{DataTemplate local:NewPage4}"
-     Route="MainPage" />
+     Route="NewPage4" />
     </FlyoutItem>
     <FlyoutItem Title="Negros">
         <ShellContent
      Title="Home"
      ContentTemplate="{DataTemplate local:NewPage6}"
-     Route="MainPage" />
+     Route="NewPage6" />
     </FlyoutItem>
     <FlyoutItem Title="Azules">
         <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:NewPage7}"
-        Route="MainPage" />
+        Route="NewPage7" />
     </FlyoutItem>
     <FlyoutItem Title="Dorados">
         <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:NewPage9}"
-        Route="MainPage" />
+        Route="NewPage9" />
     </FlyoutItem>
     <FlyoutItem Title="Desconocidos">
 
         <ShellContent
          Title="Home"
          ContentTemplate="{DataTemplate local:NewPage8}"
-         Route="MainPage" />
+         Route="NewPage8" />
     </FlyoutItem>
 
 
