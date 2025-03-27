@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
+    <!--
+    Página de contenido que muestra información sobre los Dragones Marrones.
+    Incluye un título, una imagen representativa y un botón para ver más detalles.
+    -->
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CAMBIOVENTANAS.NewPage9"
@@ -10,8 +14,10 @@
         Style="{StaticResource Headline}"
         VerticalOptions="Center" 
         HorizontalOptions="Center" />
+            <!--Imagen representativa de los dragones dorados o cola plumas-->
             <Image Source="dorado2.png" 
        HeightRequest="400"/>
+            <!--Boton que te lleva a los detalles-->
             <Button Text="Detalles"
         Clicked="DetallesBTN"
         x:Name="btnLBL" />

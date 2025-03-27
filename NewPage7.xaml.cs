@@ -1,15 +1,27 @@
 namespace CAMBIOVENTANAS;
-
+/// <summary>
+/// Clase que se encarga de mostrar la ventana de NewPage7, la del dragón azul.
+/// </summary>
 public partial class NewPage7 : ContentPage
-{
-	public NewPage7()
+{/// <summary>
+ /// El constructor de la clase NewPage7
+ /// </summary>
+    public NewPage7()
 	{
 		InitializeComponent();
 	}
     private void DetallesBTN(object sender, EventArgs e)
     {
+        /// <summary>
+        /// Método que se encarga de cambiar de ventana al hacer click en el botón.
+        /// al clickar en detalles se nos muestren, se nos mostrará la información del dragón azul.
+        /// </summary>
+        /// param name="sender">Objeto que activa el evento</param>
+        /// param name="e">Argumentos del evento que ayuda a la funcion</param>
+
         Navigation.PushAsync(new Detalles
         {
+            // Navega a la página de detalles y asigna la información del dragón azul.
 
             BindingContext = new Class1
             {
