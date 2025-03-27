@@ -8,7 +8,7 @@
              x:Class="CAMBIOVENTANAS.NewPage5"
              Title="Colas de los Dragones">
     <ScrollView>
-        z
+        
         <!-- Título principal que describe la temática de la página y le decimos donde queremos que aparezca. -->
 
         <VerticalStackLayout Padding="10">
