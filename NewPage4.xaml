@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CAMBIOVENTANAS.NewPage4"
+             Title="Dragones Verdes">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label 
+                Text="Verdes"
+                Style="{StaticResource Headline}"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Image Source="verde.png" 
+                HeightRequest="185"/>
+            <Button Text="Detalles"
+             Clicked="DetallesBTN"
+             x:Name="btnLBL" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

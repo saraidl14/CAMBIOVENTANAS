@@ -10,23 +10,61 @@
     <FlyoutItem Title="Home">
 
         <ShellContent
-        Title="Home"
+        Title="Tipos de Dragones"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+        <ShellContent
+        Title="Tipos de Colas"
+        ContentTemplate="{DataTemplate local:NewPage5}"
+        Route="MainPage" />
+
     </FlyoutItem>
-    <FlyoutItem Title="Pagina1">
+    <FlyoutItem Title="Marrones">
 
         <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:NewPage1}"
         Route="MainPage" />
     </FlyoutItem>
-    <FlyoutItem Title="Pagina2">
+    <FlyoutItem Title="Naranjas">
 
         <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:NewPage2}"
         Route="MainPage" />
+    </FlyoutItem>
+    <FlyoutItem Title="Rojos">
+
+        <ShellContent
+     Title="Home"
+     ContentTemplate="{DataTemplate local:NewPage3}"
+     Route="MainPage" />
+    </FlyoutItem>
+    <FlyoutItem Title="Verdes">
+
+        <ShellContent
+     Title="Home"
+     ContentTemplate="{DataTemplate local:NewPage4}"
+     Route="MainPage" />
+    </FlyoutItem>
+    <FlyoutItem Title="Negros">
+        <ShellContent
+     Title="Home"
+     ContentTemplate="{DataTemplate local:NewPage6}"
+     Route="MainPage" />
+    </FlyoutItem>
+    <FlyoutItem Title="Azules">
+        <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:NewPage7}"
+        Route="MainPage" />
+    </FlyoutItem>
+    <FlyoutItem Title="Desconocidos">
+
+        <ShellContent
+         Title="Home"
+         ContentTemplate="{DataTemplate local:NewPage8}"
+         Route="MainPage" />
     </FlyoutItem>
 
 

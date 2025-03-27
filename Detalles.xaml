@@ -11,6 +11,10 @@
             Text="{Binding Texto}"
             
             />
-           
+        <Image Source="{Binding Image1}" WidthRequest="200" HeightRequest="200" />
+        <Label 
+            Text= "{Binding Description}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />   
     </VerticalStackLayout>
 </ContentPage>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CAMBIOVENTANAS.NewPage5"
+             Title="Colas de los Dragones">
+    <ScrollView>
+        <VerticalStackLayout Padding="10">
+            <Label 
+            Text="En el universo Empyreo existen varios tipos de colas de dragones"
+            FontSize="Large"
+            FontAttributes="Bold"
+            TextColor="DarkRed"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Image Source="colas.png" 
+               HeightRequest="400" 
+               Aspect="AspectFit" 
+               Margin="10" />
+
+            <Label Text="En la saga del Empíreo, todos los dragones se caracterizan no solo por su color, sino también por el tipo de su cola. Esta cola es formada a voluntad y necesidad del dragón, por lo que el color de este no define qué cola tendrá."
+               FontSize="Medium" 
+               TextColor="Black"
+               Margin="10"/>
+
+            <Label Text="Dragones con cola de Plumas:" FontSize="Medium" FontAttributes="Bold" TextColor="DarkRed"/>
+            <Label Text="Los dragones que tienen cola con forma de plumas son, atento al spoiler, crías que acaban de nacer o bien tienen unos pocos años. Estos aún no se han desarrollado del todo y ni su color ni su tipo de cola «final» están claro hasta que llegan a la adultez." TextColor="Black"/>
+
+            <Label Text="Dragones con cola de Garrota:" FontSize="Medium" FontAttributes="Bold" TextColor="DarkRed"/>
+            <Label Text="La cola de garrota es un arma contundente y letal en los dragones. Fuil, la dragona de Soleil Telery y Teine, el dragón de Mira Sorrengail, son dragones que tienen cola de garrota, también conocida como «Clubtail»." TextColor="Black"/>
+
+            <Label Text="Dragones con cola de Daga:" FontSize="Medium" FontAttributes="Bold" TextColor="DarkRed"/>
+            <Label Text="A pesar de su pequeño tamaño, las colas de dagas suelen ser rápidas y letales, capaces de rajarles el cuello a cualquiera que se ose enfrentarse a un dragón con ella. Sgaeyl, la dragona azul de Xaden, y Feirge, la dragona verde de Rhiannon Matthias tienen colas de daga." TextColor="Black"/>
+
+            <Label Text="Dragones con cola de Escorpión:" FontSize="Medium" FontAttributes="Bold" TextColor="DarkRed"/>
+            <Label Text="Las colas de escorpión son de lo más interesantes, no solo son afiladas, sino que también tienen púas venenosas. Según la autora, Andarna termina desarrollando una cola de escorpión gracias a Violet y los envenenamientos que hizo para poder sobrevivir y ganar en el cuadrilátero durante los combates. Además de Andarna, otro dragón conocido que también tiene una cola de escorpión es Baide, el dragón del maldito Jack Barlowe." TextColor="Black"/>
+
+            <Label Text="Dragones con cola de Espada:" FontSize="Medium" FontAttributes="Bold" TextColor="DarkRed"/>
+            <Label Text="Los dragones con cola de espada tienen otra arma afilada y grande, además de sus garras. Codagh, el dragón negro del general Melgren y Cath, el dragón rojo de Dain Aetos también tienen colas de espada." TextColor="Black"/>
+
+            <Label Text="Dragones con cola de Maza:" FontSize="Medium" FontAttributes="Bold" TextColor="DarkRed"/>
+            <Label Text="Similar a la cola de garrote, aunque con una forma mucho más esférica y con púas tan afiladas como una cola de dagas, esta cola es un arma contundente y letal para el dragón que la tenga. Es considerada de las más mortíferas. Tairn, el dragón negro de Violet Sorrengail, tiene una cola de maza." TextColor="Black"/>
+        </VerticalStackLayout>
+    </ScrollView>
+   
+</ContentPage>
